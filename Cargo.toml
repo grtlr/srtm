@@ -1,0 +1,19 @@
+[package]
+name = "srtm"
+version = "0.1.0"
+authors = ["Jochen Görtler <web@goertler.email>"]
+
+description = "Reads elevation data from ``.hgt`` files in Rust."
+repository = "https://github.com/grtlr/srtm.git"
+readme = "README.md"
+
+keywords = ["srtm", "hgt", "elevation-data", "srtm"]
+categories = ["science"]
+license = "BSD3"
+
+[lib]
+name = "srtm"
+path = "src/lib.rs"
+
+[dependencies]
+byteorder = "1"
