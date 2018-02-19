@@ -9,7 +9,7 @@ readme = "README.md"
 
 keywords = ["srtm", "hgt", "elevation-data", "srtm"]
 categories = ["science"]
-license = "BSD3"
+license = "BSD-3-Clause"
 
 [lib]
 name = "srtm"
