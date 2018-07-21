@@ -1,6 +1,6 @@
 ## SRTM for Rust
 
-Reads elevation data from ``.hgt`` files in Rust. Support resolutions of 1 angle second (SRTM1) and 3 angle-seconds (SRTM3).
+Reads elevation data from ``.hgt`` files in Rust. Supports resolutions of 1 angle second (SRTM1) and 3 angle-seconds (SRTM3).
 
 ## Example
 

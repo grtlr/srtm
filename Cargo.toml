@@ -1,6 +1,6 @@
 [package]
 name = "srtm"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jochen Görtler <web@goertler.email>"]
 
 description = "Reads elevation data from ``.hgt`` files in Rust."
