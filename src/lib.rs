@@ -8,12 +8,13 @@ use std::io::{Read, BufReader};
 use std::path::Path;
 use byteorder::{BigEndian, ReadBytesExt};
 
-#[derive(PartialEq,Eq,Clone,Copy)]
+#[derive(PartialEq,Eq,Clone,Copy,Debug)]
 pub enum Resolution {
     SRTM1,
     SRTM3,
 }
 
+#[derive(Debug)]
 pub struct Tile {
     pub latitude: i32,
     pub longitude: i32,
