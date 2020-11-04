@@ -19,7 +19,7 @@ pub struct Tile {
     pub latitude: i32,
     pub longitude: i32,
     pub resolution: Resolution,
-    data: Vec<i16>,
+    pub data: Vec<i16>,
 }
 
 #[derive(Debug)]
